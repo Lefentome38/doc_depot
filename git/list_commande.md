@@ -8,7 +8,7 @@
 - git push   (pour pousser les document/fichier vers GitHub)
 - git status   (pour vérifier le depot local ou les commits)
 - git config   (pout vérifier les infos)
-- git clone Et/Le/Nom/Du/Depot    (pour cloner un dépot deja éxistant)
+- git clone Le/Nom/Du/Depot/distant    (pour cloner un dépot deja éxistant)
 - git pull   (pour récupérer les donnés sur le dépot distant)
 
 
@@ -30,7 +30,7 @@
 - git branch   (pour regarder les branches( * = branche sléctionné))
 - git merge   (fusionner une branche dans la branche active)
     - (*branch_1) git merge branch_2 ---fusion---> branch_1 (tout en local)
-- git rebase nom-branch   (Ctrl-x + Ctrl-v sur le commit a jour sur le depot distant)
+- git rebase nom-branch   (s'est comme un (Ctrl-x + Ctrl-v) sur le commit a jour sur le depot distant)
 - git tag nom-tag   (pour donner un tag) 
 
 
@@ -53,20 +53,23 @@
     cd (Aller dans le répertoire home)
     cd ..(Monter d’un niveau)
     cd - (Retourner au répertoire précédent)
-- rm   (pour suprimer dossier/fichier)
+- rm  (pour suprimer dossier/fichier)
     - rf (pout tout supprimer)
-- cp (permet de copier des dossiers [
+- cp (permet de copier des dossiers 
+    [
     cp nom/du/dossier nom/du/dossier_copier
     ])
     cp - r (permet de copier des dossiers et les répertoires)
 - rm (permet de supprimer un dossier)
     rm -r (supprimer un répertoire vide)
     rm -rf (pour tout sup, pour supprimer un répertoire avec son contenu)
-- mv (déplacer ou renommer des fichiers et des répertoires [ deplacer :
+- mv (déplacer ou renommer des fichiers et des répertoires 
+    [ deplacer :
     mv source_file destination_folder/
 
     mv command_list.txt commands/
-    ] [ renomer :
+    ] 
+    [ renomer :
     mv nom/du/fichier le_nouveau_nom/du/fichier
     ])
 - mkdir (pour créer un dossier)
