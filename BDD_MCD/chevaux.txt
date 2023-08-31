@@ -1,0 +1,15 @@
+cas d'utilisation
+les acteurs : 
+	. le client (acteur principal)
+	. Horas (acteur secondaire)
+précondition (lancement du cas d'utilisation)
+scénario principal :
+1 - on choisie un cheval jument ou un étalon
+2 -
+2j -
+3 -
+4 -
+scénario alternatif :
+1 -
+2 -
+post condition (etat dans le système après l'éxécution du cas utilisation 

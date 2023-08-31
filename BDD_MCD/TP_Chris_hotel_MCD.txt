@@ -1,0 +1,57 @@
+Société "Morphée"? C'est le systmème
+
+entité :
+Hotels 
+Enseigne
+les clients 
+	particuliers
+	professionnels
+établisement
+regroupement des factures
+CRTC (centre de réservation téléphonique centralisé)
+CDR (centre de donné de reservation)
+reservation
+date
+#11
+
+Morphé (?)
+europe  (?)
+N° client (?)
+n° CB (?)
+type chambre = bain et wc (?)
+type chambre = douche et wc (?)
+type chambre = lavabo et wc (?)
+
+france (?!)
+portugal (?!)
+italie (?!)
+angleterre (?!)
+pays-bas (?!)
+
+
+
+Relations:
+Enseigne regroupe des Hotels (morphé ?) 
+-facturation
+	.euro ou sterling
+	. 
+-reservation par téléphone de puis la central
+ -demande de reservation
+	. le lieux de l'hotel
+	. date
+	. niveaux de conforts
+	.  
+-CRTC reservation téléphonique
+	(prend les information sur le client pour sa reservation
+-CRTC retransmet les informations
+	. les chambres disponible 
+	.
+-les hotels transmettent les informations
+	. le nombre de chambre restant
+	. le prix de leur chambre
+	. la qualité de leur chambre
+
+Propriétés
+Nombre de chambres dans l'hotel
+Type de chambre? (ou entité)
+Pays de localisation (propriété ou relation)

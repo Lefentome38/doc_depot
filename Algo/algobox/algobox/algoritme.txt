@@ -1,0 +1,35 @@
+algorithme 
+La SNCF accorde une réduction aux familles voyageant par train en fonction du nombre d'enfants dans la famille. Cette réduction est de 10% pour deux enfants, 15% pour 3 enfants et 18% pour 4 enfants. A partir de 5 enfants, la réduction est de 18% + 1% par enfant au dessus de 4.
+Ecrire un algorithme demandant à l'utilisateur de saisir le nombre d'enfants d'une famille donnée, affiche la réduction qui lui est accordée
+constantes
+	2enfants = 2 10%
+	3enfants = 3 15%
+	4enfants = 4 18%
+	+5enfants = 5 18% + 1% part enfants
+variables
+	NbrEnfant : entier
+debut
+	ecricre("le nombre n'enfants")
+	lire(NbrEnfants)
+
+	SI (NbrEnfant = 2enfant) ALORS
+	2enfants<-10%
+	ecrire("2enfants")
+	FINSI
+
+	SI (NbrEnfant = 3enfant) ALORS
+	ecrire("3enfants=15%")
+	FINSI
+
+	SI (NbrEnfant = 4enfant) ALORS
+	ecrire("18%")
+	FINSI
+
+	SI (NbrEnfant >= 5enfant) ALORS
+	+5enfants<-5enfants + 1%
+	ecrire("5enfants")
+	SINON
+	
+	FINSI
+
+fin

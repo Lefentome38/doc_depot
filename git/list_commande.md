@@ -33,9 +33,6 @@
 - git rebase nom-branch   (s'est comme un (Ctrl-x + Ctrl-v) sur le commit a jour sur le depot distant)
 - git tag nom-tag   (pour donner un tag) 
 
-
-
-
 ### sources 
 - https://www.hostinger.fr/tutoriels/commandes-git
 - https://gist.github.com/laurentperroteau/9d55a4ff37b5765fdc39651147109cf5
@@ -75,6 +72,8 @@
 - mkdir (pour créer un dossier)
     mkdir -p (pour créer un sous dossier)
 - touch (pour créer un fichier)
+- npm i (installez les dépendances)
+- npm run dev (permet de lancer/voire le code)
 
 ### sources 
 
