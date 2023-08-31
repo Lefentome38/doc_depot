@@ -10,16 +10,17 @@
 - git config   (pout vérifier les infos)
 - git clone Et/Le/Nom/Du/Depot    (pour cloner un dépot deja éxistant)
 - git pull   (pour récupérer les donnés sur le dépot distant)
-- git rm   (pour suprimer dossier/fichier)
-    - rf (pout tout supprimer)
-- git mkdir (pour créer un dossier)
-- git touch (pour créer un fichier)
 
-### pour relier le dépot local et le dépot distant(GitHub
-)
+
+### pour relier le dépot local et le dépot distant(GitHub)
+
 - git remote add origin git@github.com:Lefentome38/depot_test.git   (le lien du dépot distence)
 - git git branch -M main   (pour sélectioner la branch main "je crois") 
 - git push -u origin main   (pour pousser vers orign main )
+
+#### d'autre commande avec le dépot distant
+
+- git config --get remote.origin.url (pour regarder l'url du dépot distant)
 
 ### pour les branchs
 
@@ -32,8 +33,46 @@
 - git rebase nom-branch   (Ctrl-x + Ctrl-v sur le commit a jour sur le depot distant)
 - git tag nom-tag   (pour donner un tag) 
 
-![MarineGEO circle logo](/assets/img/MarineGEO_logo.png "MarineGEO logo")
+
+
 
 ### sources 
 - https://www.hostinger.fr/tutoriels/commandes-git
 - https://gist.github.com/laurentperroteau/9d55a4ff37b5765fdc39651147109cf5
+
+
+
+
+# liste des commandes linux
+
+### les commandes de base 
+
+- ls (pour vérifier le contenu du dossier)
+- ll (pour vérifier les dossier cacheé (?))
+- cd (pour ce déplacer entre les dossier)
+    cd (Aller dans le répertoire home)
+    cd ..(Monter d’un niveau)
+    cd - (Retourner au répertoire précédent)
+- rm   (pour suprimer dossier/fichier)
+    - rf (pout tout supprimer)
+- cp (permet de copier des dossiers [
+    cp nom/du/dossier nom/du/dossier_copier
+    ])
+    cp - r (permet de copier des dossiers et les répertoires)
+- rm (permet de supprimer un dossier)
+    rm -r (supprimer un répertoire vide)
+    rm -rf (pour tout sup, pour supprimer un répertoire avec son contenu)
+- mv (déplacer ou renommer des fichiers et des répertoires [ deplacer :
+    mv source_file destination_folder/
+
+    mv command_list.txt commands/
+    ] [ renomer :
+    mv nom/du/fichier le_nouveau_nom/du/fichier
+    ])
+- mkdir (pour créer un dossier)
+    mkdir -p (pour créer un sous dossier)
+- touch (pour créer un fichier)
+
+### sources 
+
+- https://kinsta.com/fr/blog/commandes-linux/
