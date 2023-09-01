@@ -36,6 +36,7 @@
 ### sources 
 - https://www.hostinger.fr/tutoriels/commandes-git
 - https://gist.github.com/laurentperroteau/9d55a4ff37b5765fdc39651147109cf5
+- https://devhints.io/bash
 
 
 
