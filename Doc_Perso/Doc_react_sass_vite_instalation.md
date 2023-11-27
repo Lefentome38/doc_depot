@@ -9,6 +9,7 @@ choisire - react - typescript
 cd Nom_Du_Dossier
 npm i
 npm i --save-dev sass
+npm i react-router-dom 
 npm run dev
 ```
 
@@ -46,7 +47,7 @@ git commit -m "le message"
 ```
 
 ```bash (pour relier le GitHub)
-git remote add origin git@github.com:Lefentome38/A_test_test_test.git
+git remote add origin git@github.com:Lefentome38/nom_du_ripot_git.git
 git branch -M main
 git push -u origin main
 ```
@@ -54,6 +55,19 @@ git push -u origin main
 
 ```bash (pour la suite)
 git push
+```
+
+```bash (les branch)
+git branch nom_de_la_branch (pour créer la branch)
+git checkout main
+git pull
+git checkout fix/a (nom_de_la_branch)
+git rebase main
+git push --force-with-lease 
+ou 
+git push origin nom_de_la_branch
+git rebase --abort
+PR sur github (PR = pull request)
 ```
 
 ## lien Github exo 

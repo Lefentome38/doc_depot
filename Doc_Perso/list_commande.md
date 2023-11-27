@@ -2,36 +2,62 @@
 
 ### les commandes de base 
 
-- git init   (ouvrir un dépot local)
-- git add .   (pour ajouter les modifes),(pour sélectioner tout les dossiers)
-- git commit -m "le message"   (pour sauvegarder dans le dépot local)
-- git push   (pour pousser les document/fichier vers GitHub)
-- git status   (pour vérifier le depot local ou les commits)
-- git config   (pout vérifier les infos)
-- git clone Le/Nom/Du/Depot/distant    (pour cloner un dépot deja éxistant)
-- git pull   (pour récupérer les donnés sur le dépot distant)
+```bash
+ 
+git init   # (ouvrir un dépot local)
+git add .   #(pour ajouter les modifes),(pour sélectioner tout les dossiers)
+git commit -m "le message"   # (pour sauvegarder dans le dépot local)
+git push   # (pour pousser les document/fichier vers GitHub)
+git status   # (pour vérifier le depot local ou les commits)
+git config   # (pout vérifier les infos)
+git clone Le/Nom/Du/Depot/distant    # (pour cloner un dépot deja éxistant)
+git pull   # (pour récupérer les donnés sur le dépot distant)
 
+```
 
 ### pour relier le dépot local et le dépot distant(GitHub)
 
-- git remote add origin git@github.com:Lefentome38/depot_test.git   (le lien du dépot distence)
-- git git branch -M main   (pour sélectioner la branch main "je crois") 
-- git push -u origin main   (pour pousser vers orign main )
+```bash commande donner part GitHub lors du création du dépot
+
+git remote add origin git@github.com:Lefentome38/depot_test.git   # (le lien du dépot distence)
+git branch -M main   # (pour sélectioner la branch main "je crois") 
+git push -u origin main   # (pour pousser vers orign main )
+
+```
 
 #### d'autre commande avec le dépot distant
 
-- git config --get remote.origin.url (pour regarder l'url du dépot distant)
+```bash
+
+git config --get remote.origin.url # (pour regarder l'url du dépot distant)
+
+```
 
 ### pour les branchs
 
-- git checkout -b nom-branch   (pour créer une branche)
-- git checkout -d nom-branch   (pour supprimer une branche)
-- git checkout nom-branch   (pour aller sur une branche)
-- git branch   (pour regarder les branches( * = branche sléctionné))
-- git merge   (fusionner une branche dans la branche active)
-    - (*branch_1) git merge branch_2 ---fusion---> branch_1 (tout en local)
-- git rebase nom-branch   (s'est comme un (Ctrl-x + Ctrl-v) sur le commit a jour sur le depot distant)
-- git tag nom-tag   (pour donner un tag) 
+```bash
+    git checkout -b nom-branch   # (pour créer une branche)
+    git checkout -d nom-branch   # (pour supprimer une branche)
+    git checkout nom-branch   # (pour aller sur une branche)
+    git branch   # (pour regarder les branches( * = branche sléctionné))
+    git merge   # (fusionner une branche dans la branche active)
+      # (*branch_1) git merge branch_2 ---fusion---> branch_1 (tout en local)
+    git rebase nom-branch   # (s'est comme un (Ctrl-x + Ctrl-v) sur le commit a jour sur le depot distant)
+    git tag nom-tag   # (pour donner un tag) 
+```
+
+### comande de git pour travailler en groupe
+
+```bash
+    git checkout -b nom_de_la_branch_ticket
+    git add .
+    git commit -m "le message"
+    git git checkout main
+    git pull origin main
+    git checkout nom_de_la_branch_ticket
+    git rebase main
+    git push --force-whith-lease
+```
 
 ### sources 
 - https://www.hostinger.fr/tutoriels/commandes-git
@@ -39,11 +65,11 @@
 - https://devhints.io/bash
 
 
-
-
 # liste des commandes linux
 
 ### les commandes de base 
+
+```bash
 
 - ls (pour vérifier le contenu du dossier)
 - ll (pour vérifier les dossier cacheé (?))
@@ -75,6 +101,8 @@
 - touch (pour créer un fichier)
 - npm i (installez les dépendances)
 - npm run dev (permet de lancer/voire le code)
+
+```
 
 ### sources 
 
