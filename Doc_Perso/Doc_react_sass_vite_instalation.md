@@ -9,6 +9,7 @@ choisire - react - typescript
 cd Nom_Du_Dossier
 npm i
 npm i --save-dev sass
+npm i -D vitest
 npm i react-router-dom 
 npm run dev
 ```
