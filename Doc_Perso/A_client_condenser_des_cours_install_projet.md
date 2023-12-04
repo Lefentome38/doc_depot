@@ -10,7 +10,7 @@ cd Nom_Du_Dossier
 npm i
 npm i --save-dev sass
 npm i -D vitest
-npm i dotenv # dans le client et la back aussi
+npm i dotenv 
 npm i react-router-dom 
 npm run dev
 ```
@@ -62,17 +62,7 @@ npm init playwright@latest # test TDD
 - puis npm run dev (pour voir si tout marche bien)
     - et les autres commande disponible dans les scrpits
 
-## install (serveur)
 
-```bash
-npm i -D vitest
-npm i body-parser
-npm i dotenv
-npm i --save-dev @types/express 
-npm install cors
-npm install -D @types/cors
-# npm i express --save 
-```
 
 <!-- du coté serveur il me manque des infos -->
 
@@ -126,7 +116,13 @@ git push
 - https://github.com/Lefentome38/marmiton_serveur
 - 
 
-# code exemple
+## doc condenser 
+
+[condenser serveur_install](./A_serveur_condenser.md)
+
+[Doc GitHub | WLS](./list_commande.md)
+
+## code exemple
 
 [Framework_React](./D_code_emple/Framework_React.md)
 
