@@ -1,42 +1,3 @@
-# liste de commande 
-
-lien: https://playwright.dev/docs/intro <!-- -->
-lien: https://ohaleks.hashnode.dev/using-puppeteer-on-windows-with-wsl
-
-```bash
-    npm init playwright@latest 
-    # pour créer le playwright
-```
-
-![...](../D_img/Capture_playwright.PNG)
-
-```bash    
-
-    # d'autre commande donné par playwright
-
-    npx playwright test
-    # Runs the end-to-end tests.
-
-     npx playwright test --ui
-    # Starts the interactive UI mode.
-
-    npx playwright test --project=chromium
-    # Runs the tests only on Desktop Chrome.
-
-    npx playwright test example
-    # Runs the tests in a specific file.
-
-    npx playwright test --debug
-    # Runs the tests in debug mode.
-
-    npx playwright codegen
-    # Auto generate tests with Codegen.
-
-    # We suggest that you begin by typing:
-
-    npx playwright test
-```
-
 # Playwright
 
 ## Installation
@@ -102,13 +63,13 @@ sudo apt upgrade -y
 sudo apt-get install ca-certificates fonts-liberation libappindicator3-1 libasound2 libatk-bridge2.0-0 libatk1.0-0 libc6 libcairo2 libcups2 libdbus-1-3 libexpat1 libfontconfig1 libgbm1 libgcc1 libglib2.0-0 libgtk-3-0 libnspr4 libnss3 libpango-1.0-0 libpangocairo-1.0-0 libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 libxtst6 lsb-release wget xdg-utils
 ```
 
-<!-- ### Windows + NodeJS
+### Windows + NodeJS
 
 - Installer NodeJS [Lien pour le télécharger](https://nodejs.org/en/download/)
 - Priez pour que ça marche vu que c'est Windows
 - Il va falloir apprendre à créer un projet dans windows et gérer vos clés ssh
 
-Blague à part, vous pouvez aller avec WSL dans vos fichiers de Windows en allant dans `/mnt/c/Users/<your_username_windows>` !-->
+Blague à part, vous pouvez aller avec WSL dans vos fichiers de Windows en allant dans `/mnt/c/Users/<your_username_windows>`
 
 ## Créer un projet Playwright
 
@@ -210,4 +171,4 @@ npx playwright test --ui
 - Allez dans l'onglet `Actions` de votre projet
 - Vérifiez que les tests passent bien
 
-Vous venez de créer votre premier test e2e avec Playwright et de l'intégrer à votre pipeline de CI de Github
+Vous venez de créer votre premier test e2e avec Playwright et de l'intégrer à votre pipeline de CI de Github !
