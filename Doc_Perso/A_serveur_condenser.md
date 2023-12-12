@@ -51,6 +51,12 @@ npm i express --save
 npm i --save-dev @types/express 
 npm install cors
 npm install -D @types/cors
+
+npm i sqlite3
+npm i sequelize
+
+npm i jsonwebtoken
+npm i bcrypt
 ```
 - créer un fichier API.HTTP
     - créer vos requettes
@@ -89,7 +95,7 @@ npm run start # pour compiler le fichier index.ts => index.js
 ## ensuite le GitHub
 
 ```bash 
-# (les basses des basses de GitHub)
+# (les bases des bases de GitHub)
 
 git init
 git add .

@@ -33,7 +33,7 @@ npm run dev
 npm init playwright@latest # test TDD
 ```
 
-### Avant de démarer (client)
+### Avant de démarer (client)(optionnel)
 
 - supprimer le dossier "assets"
 - surpprimer "App.css"
