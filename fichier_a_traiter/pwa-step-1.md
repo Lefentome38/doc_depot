@@ -61,6 +61,7 @@ Brief à rendre demain avant 17h + "correction" vendredi matin.
 
 ## worker
 ## workbox
+- pour gérer les caches
 - un ensemble de bibliothèque Open Source (appelées modules **en interne**)
 - encapsules les API de bas niveau (ex: API Service Worker et Cache Storage)
 - 54%, Les sites mobiles avec service workers utilisent la bibliothèque Workbox
