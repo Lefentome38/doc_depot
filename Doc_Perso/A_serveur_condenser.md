@@ -43,8 +43,8 @@ npx tsc --init
 - ensuite instaler les dependences
 
 ```bash
-
-npm i -D vitest
+# la base
+npm i -D vitest 
 npm i body-parser
 npm i dotenv
 npm i express --save 
@@ -52,10 +52,12 @@ npm i --save-dev @types/express
 npm install cors
 npm install -D @types/cors
 
-npm i sqlite3
+# database
+npm i sqlite3 
 npm i sequelize
 
-npm i jsonwebtoken
+# token
+npm i jsonwebtoken 
 npm i bcrypt
 ```
 - créer un fichier API.HTTP
@@ -98,7 +100,7 @@ npm run start # pour compiler le fichier index.ts => index.js
 # (les bases des bases de GitHub)
 
 git init
-git add .
+git add . ou gti add nom_dossier nom_fichier/ nom_fichier/nom_dossier
 git commit -m "le_message"
 ```
 
@@ -150,8 +152,8 @@ git push
 
 ## code exemple
 
-[Node_js](./D_code_emple/Node_js.md)
+[Node_js](./D_code_exemple/Node_js.md)
 
-[API_post](./D_code_emple/API_post.md)
+[API_post](./D_code_exemple/API_post.md)
 
-[Docker](./D_code_emple/Docker.md)
+[Docker](./D_code_exemple/Docker.md)
