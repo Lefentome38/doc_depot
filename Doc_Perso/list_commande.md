@@ -12,7 +12,11 @@ git status   # (pour vérifier le depot local ou les commits)
 git config   # (pout vérifier les infos)
 git clone Le/Nom/Du/Depot/distant    # (pour cloner un dépot deja éxistant)
 git pull   # (pour récupérer les donnés sur le dépot distant)
-
+git log --pretty=oneline # un log pour regarder les commits
+git reset --hard HEAD~1 # supprimer le définitivement le dernier commit 
+git reset --hard ex:9cf95dacd226dcf43da376cdb6cbba7035218921 # supprimer le définitivement les modifs
+git reset --soft HEAD~1 # supprimer le dernier commit maus garder les modifs 
+git checkout ex:9cf95dacd226dcf43da376cdb6cbba7035218921 # revenir temporairement sur un commit
 ```
 
 ### pour relier le dépot local et le dépot distant(GitHub)

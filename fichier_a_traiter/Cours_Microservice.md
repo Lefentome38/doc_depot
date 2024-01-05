@@ -132,3 +132,5 @@ Il existe plusieurs architectures de microservices classiques à connaître en e
 - [Cours microsoft Azure](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/direct-client-to-microservice-communication-versus-the-api-gateway-pattern)
 
 ---
+
+# dckr_pat_C_TJ2QojN1P9Mr8JP_yBRtZXMzY
